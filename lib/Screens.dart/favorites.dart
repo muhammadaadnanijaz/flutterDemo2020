@@ -14,7 +14,6 @@ class _FavoriteState extends State<Favorite>{
       body: Container(
         color: Colors.white70,
         child: SingleChildScrollView(
-          physics: BouncingScrollPhysics(),
           child: Column(
             children: [
               ColumnWithImages(

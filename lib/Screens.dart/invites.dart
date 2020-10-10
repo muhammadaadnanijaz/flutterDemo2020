@@ -14,7 +14,6 @@ class _InvitesState extends State<Invites> {
       body: Container(
         color: Colors.white70,
         child: SingleChildScrollView(
-          physics: BouncingScrollPhysics(),
           child: Column(
             children: [
               ColumnWithImages(
